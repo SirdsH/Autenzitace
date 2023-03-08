@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:f="http://xmlns.jcp.org/jsf/core">
+<h:head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+          integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous"/>
+</h:head>
+
+<h:body>
+    <f:event type="preRenderView" listener="#{secretBean.before}"/>
+    <div class="d-flex justify-content-center p2 bg-primary">
+        <h:form>
+        <h:commandButton value="Log Out" styleClass="btn btn-dark mt-2 mb-2" action="#{loggedOutBean.LogOut()}"/>
+        </h:form>
+    </div>
+    <div class="d-flex">
+        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Sed ac dolor sit amet purus malesuada congue. Duis ante orci, molestie vitae vehicula venenatis, tincidunt ac pede. Nulla pulvinar eleifend sem. Integer tempor. Curabitur bibendum justo non orci. Nulla non lectus sed nisl molestie malesuada. In rutrum. Donec iaculis gravida nulla. Nulla est. Vivamus ac leo pretium faucibus. Etiam bibendum elit eget erat. Fusce tellus. Phasellus faucibus molestie nisl. Aliquam in lorem sit amet leo accumsan lacinia. Curabitur bibendum justo non orci. Praesent id justo in neque elementum ultrices. Etiam quis quam.
+
+            Curabitur vitae diam non enim vestibulum interdum. Et harum quidem rerum facilis est et expedita distinctio. Integer tempor. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Praesent vitae arcu tempor neque lacinia pretium. Phasellus faucibus molestie nisl. Aliquam in lorem sit amet leo accumsan lacinia. Donec iaculis gravida nulla. Duis bibendum, lectus ut viverra rhoncus, dolor nunc faucibus libero, eget facilisis enim ipsum id lacus. Fusce nibh. In enim a arcu imperdiet malesuada. Curabitur ligula sapien, pulvinar a vestibulum quis, facilisis vel sapien.
+
+            Vivamus luctus egestas leo. Mauris suscipit, ligula sit amet pharetra semper, nibh ante cursus purus, vel sagittis velit mauris vel metus. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos hymenaeos. Nullam rhoncus aliquam metus. Suspendisse nisl. Nulla pulvinar eleifend sem. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos hymenaeos. Praesent id justo in neque elementum ultrices. Curabitur sagittis hendrerit ante. Cras pede libero, dapibus nec, pretium sit amet, tempor quis. Integer pellentesque quam vel velit. Aliquam id dolor. Maecenas fermentum, sem in pharetra pellentesque, velit turpis volutpat ante, in pharetra metus odio a lectus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos hymenaeos.
+
+            Praesent dapibus. Nullam at arcu a est sollicitudin euismod. Donec quis nibh at felis congue commodo. Mauris metus. Et harum quidem rerum facilis est et expedita distinctio. Pellentesque ipsum. Nam quis nulla. Aliquam id dolor. Quisque porta. Duis pulvinar. Duis condimentum augue id magna semper rutrum.
+
+            Fusce tellus. Nullam eget nisl. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Mauris metus. Pellentesque pretium lectus id turpis. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Fusce tellus odio, dapibus id fermentum quis, suscipit id erat. Nunc tincidunt ante vitae massa. Etiam dictum tincidunt diam. Nulla non lectus sed nisl molestie malesuada. In laoreet, magna id viverra tincidunt, sem odio bibendum justo, vel imperdiet sapien wisi sed libero. Etiam neque. Phasellus faucibus molestie nisl.</p>
+    </div>
+</h:body>
+</html>
